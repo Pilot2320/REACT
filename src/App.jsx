@@ -7,8 +7,12 @@ import Contacts from './pages/Contacts';
 import './App.css';
 
 function App() {
+  const basePath = import.meta.env.MODE === 'production' 
+    ? '/my-courses-app'  // ← Имя вашего GitHub репозитория
+    : '/';
+
   return (
-    <Router>
+    <Router basename={basePath}>
       <div className="app">
         <Header />
         <Routes>
@@ -16,7 +20,6 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/course/:id" element={<CourseDetail />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="*" element={<div style={{ textAlign: 'center', marginTop: '40px' }}><h1>404 - Страница не найдена</h1></div>} />
         </Routes>
       </div>
     </Router>
