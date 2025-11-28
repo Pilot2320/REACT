@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   const basePath = import.meta.env.MODE === 'production' 
-    ? '/REACT'
+    ? '/my-courses-app'
     : '/';
 
   return (
