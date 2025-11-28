@@ -4,7 +4,7 @@ export const coursesData = [
     title: 'Эмоциональный интеллект',
     description: 'Научитесь понимать и управлять своими эмоциями',
     teacher: 'Анна Петрова',
-    image: '/cours1.jpg',
+    image: '/REACT/cours1.jpg',
     progress: 45,
     status: 'in-progress',
     fullDescription: 'Полный курс по развитию эмоционального интеллекта. Вы научитесь распознавать свои эмоции, управлять ими и понимать эмоции других людей. Этот курс поможет вам улучшить отношения в семье и на работе.'
@@ -14,7 +14,7 @@ export const coursesData = [
     title: 'Лидерство и управление',
     description: 'Развивайте лидерские качества и управляйте командой',
     teacher: 'Михаил Сидоров',
-    image: '/cours2.jpg',
+    image: '/REACT/cours2.jpg',
     progress: 60,
     status: 'in-progress',
     fullDescription: 'Научитесь вести людей, мотивировать команду и достигать амбициозных целей. Курс включает практические кейсы из реального бизнеса.'
@@ -24,7 +24,7 @@ export const coursesData = [
     title: 'Тайм-менеджмент',
     description: 'Управляйте временем и повышайте эффективность',
     teacher: 'Елена Кузнецова',
-    image: '/cours3.jpg',
+    image: '/REACT/cours3.jpg',
     progress: 75,
     status: 'in-progress',
     fullDescription: 'Освойте методики планирования, избавьтесь от прокрастинации и повысьте личную эффективность.'
@@ -34,7 +34,7 @@ export const coursesData = [
     title: 'Деловые коммуникации',
     description: 'Презентируйте идеи и стройте крепкие отношения',
     teacher: 'Дмитрий Волков',
-    image: '/cours4.jpg',
+    image: '/REACT/cours4.jpg',
     progress: 30,
     status: 'not-started',
     fullDescription: 'Научитесь убеждать, презентовать идеи, решать конфликты и строить крепкие деловые отношения.'
@@ -44,7 +44,7 @@ export const coursesData = [
     title: 'Стресс-менеджмент',
     description: 'Боритесь со стрессом с помощью практик',
     teacher: 'Ольга Романова',
-    image: '/cours5.jpg',
+    image: '/REACT/cours5.jpg',
     progress: 0,
     status: 'not-started',
     fullDescription: 'Изучите техники медитации, дыхательные практики и методы борьбы со стрессом в современном мире.'
@@ -54,7 +54,7 @@ export const coursesData = [
     title: 'Личная мощь',
     description: 'Развивайте харизму и уверенность в себе',
     teacher: 'Александр Смирнов',
-    image: '/cours6.jpg',
+    image: '/REACT/cours6.jpg',
     progress: 20,
     status: 'in-progress',
     fullDescription: 'Развивайте внутреннюю силу, харизму и уверенность в себе для достижения выдающихся результатов.'
