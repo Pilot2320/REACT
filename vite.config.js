@@ -3,10 +3,11 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/my-courses-app/',  // ← ВАЖНО: С слэшами!
+  base: '/REACT/',
   server: {
     port: 5173,
-    open: true
+    open: true,
+    strictPort: false,
   },
   build: {
     outDir: 'dist',
