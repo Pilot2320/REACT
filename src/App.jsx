@@ -1,27 +1,20 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Home from './pages/Home';
-import Courses from './pages/Courses';
-import CourseDetail from './pages/CourseDetail';
-import Contacts from './pages/Contacts';
-import './App.css';
 
 function App() {
+  // Определяем базовый путь в зависимости от окружения
   const basePath = import.meta.env.MODE === 'production' 
-    ? '/my-courses-app'  // ← Имя вашего GitHub репозитория
+    ? '/my-courses-app'  // ← ЗАМЕНИТЕ на имя вашего репозитория!
     : '/';
 
   return (
     <Router basename={basePath}>
-      <div className="app">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/course/:id" element={<CourseDetail />} />
-          <Route path="/contacts" element={<Contacts />} />
-        </Routes>
-      </div>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/course/:id" element={<CourseDetail />} />
+        <Route path="/contacts" element={<Contacts />} />
+      </Routes>
     </Router>
   );
 }
