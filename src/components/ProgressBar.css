@@ -1,0 +1,36 @@
+.progress-bar-container {
+  margin: 10px 0;
+}
+
+.progress-bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.progress-label {
+  font-weight: 500;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.progress-percentage {
+  font-weight: 600;
+  color: #2196F3;
+  font-size: 0.85rem;
+}
+
+.progress-bar-outer {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.progress-bar-inner {
+  background-color: #4CAF50;
+  height: 100%;
+  border-radius: 10px;
+  min-width: 2%;
+}
