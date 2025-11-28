@@ -1,16 +1,16 @@
 {
-  "name": "my-courses-app",
-  "homepage": "https://pilot2320.github.io/REACT/",
+  "name": "REACT",
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://pilot2320.github.io/REACT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "deploy": "vite preview",
     "predeploy": "npm run build",
-    "preview": "vite preview"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
