@@ -14,7 +14,6 @@ function Contacts() {
   const [successMessage, setSuccessMessage] = useState('');
   const [draftRestored, setDraftRestored] = useState(false);
 
-  // Валидация формы при изменении данных
   useEffect(() => {
     const validateForm = () => {
       const newErrors = {};
@@ -243,7 +242,7 @@ function Contacts() {
               {/* ИНФО О АВТОСОХРАНЕНИИ */}
               <div className="form-info" style={{ marginTop: '15px' }}>
                 <small>
-                  ℹ️ Ваша форма автоматически сохраняется в браузер в реальном времени.
+                  Ваша форма автоматически сохраняется в реальном времени.
                   При случайном закрытии вкладки вы сможете восстановить черновик.
                 </small>
               </div>
