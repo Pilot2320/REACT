@@ -13,4 +13,4 @@
 
 ## Расширение конфигурации ESLint
 
-Если вы разрабатываете производственное приложение, рекомендуем использовать TypeScript с включёнными правилами линтинга, учитывающими тип. Ознакомьтесь с [шаблоном TS](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts), чтобы узнать, как интегрировать TypeScript и [`typescript-eslint`](https://typescript-eslint.io) в ваш проект.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
